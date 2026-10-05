@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'inter',sans-serif;
+    padding: 20px;
+}
+/* all */
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #636060;
+}
+
+a:hover{
+    color:coral;
+}
+
+
+
+/* header styles */
+
+header{
+    background: coral;
+    padding: 25px 20px;
+}
+
+header h1{
+    text-transform: capitalize;
+    font-size: 28px;
+}
+
+/* navbar section */
+
+nav{
+    background: #f1f1f1;
+    padding: 25px;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+/* section part */
+
+section{
+    width: 50%;
+}
+
+section p{
+    margin-bottom: 25px;
+}
+
+section h1{
+    margin-bottom: 20px;
+}
+main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 200px;
+    padding: 20px;
+}
+
+aside{
+    width: 50%;
+
+}
+
+aside p{
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 300px;
+}
+
+.fixed{
+    background: coral;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+/* footer */
+
+/* footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: coral;
+    padding: 10px 20px;
+}
+
+footer .infor{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.infor p{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.socials{
+    padding-right: 50px;
+}
+
+.socials .fa-brands{
+    padding-left: 30px;
+
+} */ */
